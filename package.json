@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "scripts": {
+    "tool": "node --no-warnings --loader ts-node/esm src/tools.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.16.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {}
+}
